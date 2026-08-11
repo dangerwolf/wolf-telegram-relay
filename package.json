@@ -1,0 +1,13 @@
+{
+  "name": "telegram-relay",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A Cloudflare Worker relay for Telegram Bot sendMessage API",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^3.99.0"
+  }
+}
