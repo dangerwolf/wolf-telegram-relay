@@ -11,3 +11,19 @@ compatibility_date = "2026-08-08"
 # │    CHAT_ID    (类型选 Secret)                  │
 # │    AUTH_KEY   (类型选 Secret，可选)             │
 # └──────────────────────────────────────────────┘
+
+
+[observability]
+enabled = false
+head_sampling_rate = 1
+
+[observability.logs]
+enabled = true
+head_sampling_rate = 1
+persist = true
+invocation_logs = true
+
+[observability.traces]
+enabled = false
+persist = true
+head_sampling_rate = 1
