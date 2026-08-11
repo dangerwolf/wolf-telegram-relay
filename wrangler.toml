@@ -1,0 +1,13 @@
+name = "telegram-relay"
+main = "src/index.js"
+compatibility_date = "2026-08-08"
+
+# ┌──────────────────────────────────────────────┐
+# │  敏感变量请在 Cloudflare Dashboard 中配置：     │
+# │  Settings → Variables and Secrets             │
+# │                                               │
+# │  需要添加的变量：                               │
+# │    BOT_TOKEN  (类型选 Secret)                  │
+# │    CHAT_ID    (类型选 Secret)                  │
+# │    AUTH_KEY   (类型选 Secret，可选)             │
+# └──────────────────────────────────────────────┘
